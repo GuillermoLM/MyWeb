@@ -41,3 +41,34 @@ img.logoLinkedin{
   height: 20px;
   bottom: 50px;
 }
+
+img.perfil{
+  display: block;
+  width: 10%;
+  height: 12%;
+  padding: 3px;
+  margin: 1px;
+}
+
+body{
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: #5578a0;
+}
+
+a:hover{
+  color: #5578f1;
+}
+
+h3{
+  padding: 1px;
+  margin: 1px;
+}
+
+h4{
+  padding: 2px;
+  margin: 2px;
+}
