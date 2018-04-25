@@ -2,3 +2,73 @@ html {
   font-family: 'Play', sans-serif;
   height: 100%;
 }
+
+header{
+  font-size: 20px;
+}
+
+nav.juegos{
+  margin-top: 20px;
+  text-align: right;
+  position: absolute;
+  right: 60px;
+  top: 8px;
+}
+
+footer{
+  margin-bottom: 5px;
+  position: absolute;
+  text-align: left;
+  bottom: 5px;
+  margin: 2px;
+  padding: 2px;
+}
+
+img.logoFacebook{
+  width: 20px;
+  height: 20px;
+  bottom: 50px;
+}
+
+img.logoTwitter{
+  width: 20px;
+  height: 20px;
+  bottom: 50px;
+}
+
+img.logoLinkedin{
+  width: 20px;
+  height: 20px;
+  bottom: 50px;
+}
+
+img.perfil{
+  display: block;
+  width: 10%;
+  height: 12%;
+  padding: 3px;
+  margin: 1px;
+}
+
+body{
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: #5578a0;
+}
+
+a:hover{
+  color: #5578f1;
+}
+
+h3{
+  padding: 1px;
+  margin: 1px;
+}
+
+h4{
+  padding: 2px;
+  margin: 2px;
+}
