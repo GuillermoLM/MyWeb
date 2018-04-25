@@ -1,6 +1,12 @@
 html {
   font-family: 'Play', sans-serif;
   height: 100%;
+  background-image: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
 }
 
 header{
