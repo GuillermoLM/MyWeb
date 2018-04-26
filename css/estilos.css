@@ -1,36 +1,65 @@
-html {
+/* LAYOUT */
+section{
+  height: 90vh;
+}
+
+header{
+  height: 5vh;
+}
+
+footer{
+  height: 5vh;
+}
+
+h1{
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
+}
+
+h3{
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
+}
+
+.container{
+  padding: 10em;
+}
+
+/* TYPOGRAPHY */
+html, body {
   font-family: 'Play', sans-serif;
+  font-size: calc(15px + 1vh);
+  color: #5578f1;
   background-image: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
   background-size: cover;
   background-repeat: repeat-y;
   background-attachment: fixed;
-  height:100%;
-  width:100%;
-  font-size: calc(15px + 1vh);
-  color: #5578a0;
+  height: 100%;
+  width: 100%;
 }
 
 header{
-  overflow: hidden;
   font-size: 1rem;
 }
 
-body{
-  font-size: 0.7rem;
-  overflow: hidden;
-}
-
 footer{
-  height: 4vh;
-  margin-bottom: 5px;
-  position: absolute;
-  text-align: left;
-  bottom: 2px;
-  margin: 2px;
-  padding: 2px;
   font-size: 0.6rem;
+  text-align: left;
 }
 
+a{
+  text-decoration: none;
+  color: #5578a0;
+  text-transform: uppercase;
+}
+
+a:hover{
+  color: #5578f1;
+}
+
+/*DISTRIBUTION*/
 nav.juegos{
   margin-top: 20px;
   text-align: right;
@@ -39,57 +68,39 @@ nav.juegos{
   top: 8px;
 }
 
-img.logoFacebook{
-  width: 20px;
-  height: 20px;
-  bottom: 50px;
-}
-
-img.logoTwitter{
-  width: 20px;
-  height: 20px;
-  bottom: 50px;
-}
-
-img.logoLinkedin{
-  width: 20px;
-  height: 20px;
-  bottom: 50px;
-}
-
-img.perfil{
-  display: block;
-  width: 10%;
-  height: 12%;
-  padding: 3px;
-  margin: 1px;
-}
-
-a{
-  text-decoration: none;
-  color: #5578a0;
-}
-
-a:hover{
-  color: #5578f1;
-}
-
-h3{
-  padding: 1px;
-  margin: 1px;
-}
-
-h4{
-  padding: 2px;
-  margin: 2px;
+footer{
+  margin-bottom: 5px;
+  position: absolute;
+  bottom: 0.1px;
+  width: 100%;
+  height: 5vh;
 }
 
 b{
   margin-bottom: 5px;
   text-align: right;
   position: absolute;
-  right: -1240px;
+  right: 15px;
   bottom: 5px;
   margin: 2px;
   padding: 2px;
 }
+
+/*BUTTONS*/
+img.logoFacebook{
+  width: 20px;
+  height: 20px;
+}
+
+img.logoTwitter{
+  width: 20px;
+  height: 20px;
+}
+
+img.logoLinkedin{
+  width: 20px;
+  height: 20px;
+}
+
+
+
