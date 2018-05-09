@@ -6,7 +6,8 @@
   "scripts": {
     "test": "no",
     "start": "live-server",
-    "myWeb": "git push assignment"
+    "myWeb": "git push origin master",
+    "repoTeacher": "git push assignment"
   },
   "repository": {
     "type": "git",
