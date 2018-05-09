@@ -1,0 +1,28 @@
+{
+  "name": "mywebpersonal",
+  "version": "1.0.0",
+  "description": "mywebpersonal",
+  "main": "index.html",
+  "scripts": {
+    "test": "no",
+    "start": "live-server",
+    "myWeb": "git push assignment"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoLM/MyWeb.git"
+  },
+  "keywords": [
+    "guillermo"
+  ],
+  "author": "guillermo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuillermoLM/MyWeb/issues"
+  },
+  "homepage": "https://github.com/GuillermoLM/MyWeb#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "normalize-css": "^2.3.1"
+  }
+}
