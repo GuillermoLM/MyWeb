@@ -55,6 +55,12 @@ a{
   text-transform: uppercase;
 }
 
+p{
+  text-decoration: none;
+  color: #5578a0;
+  text-transform: uppercase;
+}
+
 a:hover{
   color: #5578f1;
 }
@@ -88,18 +94,18 @@ b{
 
 /*BUTTONS*/
 img.logoFacebook{
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 
 img.logoTwitter{
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 
 img.logoLinkedin{
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 
 
